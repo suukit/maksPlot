@@ -203,7 +203,9 @@ get.encoding <- function(encoding, data = NULL) {
   }
   return(encoding)
 }
-
+#' @rdname helperfunctions
+#' @export
+sjt.cxtab <- create.xtab.df
 
 # Calculate statistics of cross tabs
 #' @importFrom sjstats cramer phi table_values
